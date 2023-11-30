@@ -1,0 +1,147 @@
+.container {
+  margin: 40px auto;
+  padding: 60px;
+  width: 700px;
+  text-align: center;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 1)
+
+}
+
+.titre {
+  margin: 40px auto;
+  padding: 60px;
+  width: 700px;
+  text-align: center;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 1)
+}
+
+.point {
+  margin: 40px auto;
+  padding: 60px;
+  width: 700px;
+  text-align: center;
+  color: green;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 1)
+}
+.reseaux {
+  margin: 40px auto;
+  padding: 60px;
+  width: 300px;
+  text-align: center;
+  color: rgb(66, 66, 66);
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 1) 
+}
+
+.bouton {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;  
+}
+
+.bouton :hover{
+  background-color: #2980b9;
+}
+.list {
+  list-style: none;
+  padding-left: 0%; 
+}
+
+.list li {
+  display: inline;
+  padding: 10px;
+}
+
+.list i {   
+font-size: 50px;
+color: rgb(70, 41, 255);
+} 
+
+.list i:hover {
+color: black;
+}
+
+
+a {
+ color: rgb(223, 223, 223); 
+ border-radius: 10px;
+}
+
+a:hover {
+background-color: aliceblue;
+} 
+
+img {
+  margin: 40px  center;
+  border: 20px;
+  height: 150px;
+  width: 70px auto;
+  border-radius: 30%;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .titre {
+    width: 700px;
+  }
+  .point{
+    width: 700px;
+  }
+  .reseaux {
+    width: 700px;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+  .titre {
+    width: 600px;
+  }
+  .point{
+    width: 600px;
+  }
+  .reseaux {
+    width: 600px;
+  }
+  
+}
+@media (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+  .titre {
+    width: 400px;
+  }
+  .point{
+    width: 400px;
+  }
+  .reseaux {
+    width: 400px;
+  }
+}
+
+.img-circle {
+    border-radius: 50%;
+  }
+  .text-center {
+    text-align: center;
+  }
+ 
